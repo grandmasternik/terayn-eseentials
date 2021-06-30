@@ -5,7 +5,7 @@ const app = express();
 const Clay = require("./models/clays");
 const Enhancement = require("./models/enhancements");
 const Oil = require("./models/oils");
-// const Build = require("./models/build");
+const Build = require("./models/build");
 // Configure Mongoose
 const mongoose = require('mongoose');
 const db = mongoose.connection;
