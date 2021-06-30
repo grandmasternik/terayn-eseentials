@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 17px 0 0 0;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color:  black;
+    margin: 20px 0 5px 0;
+    padding-top: 15px;
+}
+
+h5 {
+    margin-bottom: 0;
+} 
+
+h6 {
+    color: rgb(111, 165, 75);
+}
+
+.column {
+  text-align: center;
+}
+.card {
+    text-align: center;
+    background-color: black;
+    color: beige;
+    margin: 50px;
+    padding: 10px;
+    border: 1px, solid;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+body {
+    background-color: white;
+}
+li {
+    font-size: 12px;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+    padding: 5px;
+}
+nav {
+    background-color: black;
+    background-size: 17px;
+    text-align: center;
+    margin: -15px 0 0 0;
+}
+
+a {
+    color:rgb(111, 165, 75);;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(134, 199, 91);
+    text-decoration: underline;
+} 
+.para {
+    margin: 250px 0 0 0;
+}
+p {
+    color: black;
+    font-size: 12px;
+}
+#select {
+    text-align: center;
+    margin: -10px 0 -10px 0;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    border-radius: 7px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (min-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.dropdown {
+    text-align: center;
+    margin: -15px 0 0 0;
+}
+
+.eCheckbox {
+    text-align: center;
+}
