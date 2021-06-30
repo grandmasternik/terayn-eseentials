@@ -10,7 +10,7 @@ To get started
 ![Screenshot]()
 
 2. Homepage
-![Screenshot]()
+![Screenshot](telogo.png)
 
 3. Clays
 ![Screenshot]()
